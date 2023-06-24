@@ -128,6 +128,6 @@ describe('explode', () => {
   });
 
   it('should throw a specific error', () => {
-    expect(() => explode()).toThrowError('Something');
+    expect(() => explode()).toThrowError(/terribly wrong/);
   });
 });
